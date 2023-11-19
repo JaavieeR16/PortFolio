@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Monroy Muñoz</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8ed440f220.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- MENÚ ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Javier Monroy</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Mi foto.png" alt="Foto de perfil">
+            </div>
+            <h1>Javier Monroy Muñoz</h1>
+            <h4>Técnico Superior Desarrollo de Aplicaciones Multiplataforma</h4>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/javier-monroy-muñoz-694910243/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/JaavieeR16" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/jaavieer16/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Jaavieer_16" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC-IvM1PWGZehbZUn3ZrCtiA" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Javier Monroy. </span>Soy un apasionado informático, con formación en desarrollo
+                de aplicaciones multiplataforma, en la creación y diseño de páginas web innovadoras. Mi objetivo
+                es combinar mi creatividad y habilidades técnicas para abordar desafíos complejos y proporcionar
+                soluciones efectivas que impulsen el éxito empresarial.</p>
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha nacimiento</strong>
+                            16-06-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            652-266-072
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            javiermonroym16@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Mislata, Valencia.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- INTERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>Cocina</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                            <span>Naturaleza</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-square-google-plus"></i>
+                            <span>RRSS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Programación</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografía</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <!-- Habilidades técnicas -->
+                <div class="col">
+                    <h3>Skills Técnicas</h3>
+                    <div class="skill">
+                        <span>HTML y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kotlin y Android Studio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Edición de fotos y vídeos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Habilidades profesionales -->
+                <div class="col">
+                    <h3>Skills Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ganas de aprender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Entusiasmo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Graduado Educación Secundaria Obligatoria.</h4>
+                        <span class="casa">Colegio Maria Inmaculada</span>
+                        <span class="fecha">2013 - 2017</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Sistemas Microinformáticos y Redes.</h4>
+                        <span class="casa">CIPFP Mislata</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Superior Desarrollo de Aplicaciones Multiplataforma.</h4>
+                        <span class="casa">Tame Centro de Formación</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Formación Técnico en resolución de incidencias en Sistemas Microinformáticos y Redes.</h4>
+                        <span class="casa">El Corte Inglés</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Formación Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h4>
+                        <span class="casa">Ayuntamiento Mislata</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/Centro-De-Formacion-Meta" target="_blank">
+                            <h3>Centro de Formación</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/Convertidor-De-Monedas" target="_blank">
+                            <h3>Convertidor de Monedas</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/Proyecto_SneakersShop" target="_blank">
+                            <h3>App Tienda Online</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/Proyecto_Zona-Descuento" target="_blank">
+                            <h3>Tienda Descuentos</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/Ayuntamiento_Mislata" target="_blank">
+                            <h3>Clon Web Ayuntamiento Mislata</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="Imagen proyecto">
+                    <div class="overlay">
+                        <a href="https://github.com/JaavieeR16/PortFolio" target="_blank">
+                            <h3>PortFolio</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="form" action="https://formspree.io/f/xleylyja" method="post">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                        <input type="email" name="email" id="email" placeholder="Correo Electrónico" required>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"
+                            required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="Imagen mapa">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Dirección: Mislata, Valencia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                Teléfono: 652-266-072
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: javiermonroym16@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/javier-monroy-muñoz-694910243/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JaavieeR16" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/jaavieer16/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Jaavieer_16" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC-IvM1PWGZehbZUn3ZrCtiA" target="_blank"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
